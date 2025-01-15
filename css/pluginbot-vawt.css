@@ -1,0 +1,25 @@
+#vawt_cb-chatbot-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}
+#vawt_cb-chatbot-messages {
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#vawt_cb-chatbot-input {
+    width: calc(100% - 60px);
+}
+#vawt_cb-chatbot-send {
+    width: 50px;
+}
+.vawt_cb-chatbot-user {
+    text-align: right;
+    color: blue;
+}
+.vawt_cb-chatbot-bot {
+    text-align: left;
+    color: green;
+}
